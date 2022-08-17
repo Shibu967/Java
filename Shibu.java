@@ -1,5 +1,5 @@
-class student {
-    int roll, marks;
+class student {// super class
+    int roll, marks;// private
     String name;
 
     void input() {
@@ -8,7 +8,7 @@ class student {
 
 }
 
-class Shibu extends student {
+class Shibu extends student {// sub class
     void disp() {
 
         roll = 1;
@@ -24,3 +24,4 @@ class Shibu extends student {
     }
 
 }
+// simple inhritanca
