@@ -1,10 +1,18 @@
 public class Test3 {
+
+    void show(int a) {
+        System.out.println("int method");
+    }
+
+    void show(String a) {
+        System.out.println("String method");
+    }
+
     public static void main(String[] args) {
-        if (args.length == 1 | args[1].equals("test")) {
-            System.out.println("test case");
-        } else {
-            System.out.println(("production" + args[0]));
-        }
+        System.out.println("1");
+        Test3 t = new Test3();
+        t.show("a");
+
     }
 
 }
