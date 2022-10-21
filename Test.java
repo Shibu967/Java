@@ -1,19 +1,20 @@
-class Demo {
-    int a = 20;
-    String b = "shibu";
+class Test {
 
-    void Show() {
-        System.out.println(a + " " + b + " ");
+    void show(int a) {
+
+        System.out.println("1");
+
     }
 
-}
+    void show() {
+        System.out.println("2");
 
-public class Test {
+    }
+
     public static void main(String[] args) {
-
-        Demo r = new Demo();
-        r.Show();
+        Test t = new Test();
+        t.show(10);
 
     }
 
-}
+}// method overloading
