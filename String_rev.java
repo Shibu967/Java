@@ -6,7 +6,6 @@ public class String_rev {
 
         {
             rev = rev + s.charAt(i);
-        }
         System.out.println(rev);
     }
 }
